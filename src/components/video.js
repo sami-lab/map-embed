@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-let backend = " http://ec2-3-76-134-7.eu-central-1.compute.amazonaws.com:5000/";
+let backend = " http://ec2-3-76-134-7.eu-central-1.compute.amazonaws.com:5000";
 export default function Video({ selected }) {
   const [htmlContent, setHtmlContent] = useState("");
 
